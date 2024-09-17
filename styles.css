@@ -34,6 +34,15 @@ body {
   .nav-item a {
     color: blue;
   }
+  @media (max-width: 768px) {
+    .nav-menu {
+      position: fixed;
+      background-color: rgba(9, 24, 238, 0.95);
+    }
+    .nav-item a {
+      color: #d4b818;
+    }}
+
   .menu-toggle {
     color: blue;}
 }
